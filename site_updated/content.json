@@ -1,0 +1,186 @@
+{
+  "produkty": {
+    "okna": [
+      {
+        "id": "plastova",
+        "name": "Plastová okna",
+        "badge": "Bestseller",
+        "desc": "Výborná tepelná izolace. Minimální údržba. Různé typy profilů a zasklení. Uw až 0,7 W/m²K.",
+        "tags": ["Typy profilů", "Barevné povrchy", "Zasklení"],
+        "link": "plastova-okna.html",
+        "image": ""
+      },
+      {
+        "id": "drevena",
+        "name": "Dřevěná okna",
+        "badge": "Prémiové",
+        "desc": "Přírodní vzhled v různých dřevinách a v různých typech dřevěných profilů.",
+        "tags": ["Typy profilů", "Dřeviny", "Zasklení"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "hlinikova",
+        "name": "Hliníková okna",
+        "badge": "Moderní design",
+        "desc": "Štíhlé profily, velká prosklení, minimalistická estetika pro moderní domy.",
+        "tags": ["Typy profilů", "Barevné povrchy", "Zasklení"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "spaletova",
+        "name": "Špaletová a kastlová okna",
+        "badge": "Historické",
+        "desc": "Vyrábíme repliky původních špaletových a kastlových oken a dveří s moderními vlastnostmi nejen do památkových zón.",
+        "tags": ["Typy profilů", "Projekt pro památkové zóny", "Ceník"],
+        "link": "",
+        "image": ""
+      }
+    ],
+    "dvere": [
+      {
+        "id": "drevene-dvere",
+        "name": "Dřevěné dveře",
+        "badge": "Přírodní",
+        "desc": "Přírodní vzhled, výběr z různých dřevin, typů profilu a zasklení.",
+        "tags": ["Typy profilů", "Dřeviny", "Zasklení"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "plastove-dvere",
+        "name": "Plastové dveře",
+        "badge": "Odolné",
+        "desc": "Vysoká odolnost a estetický vzhled, výběr z různých barevných povrchů, typů profilů a zasklení.",
+        "tags": ["Barevné povrchy", "Typy profilů", "Zasklení"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "hlinikove-dvere",
+        "name": "Hliníkové dveře",
+        "badge": "Moderní",
+        "desc": "Odolnost a stálost hliníkové konstrukce, různé barevné povrchy, typy profilů a zasklení.",
+        "tags": ["Barevné povrchy", "Typy profilů", "Zasklení"],
+        "link": "",
+        "image": ""
+      }
+    ],
+    "posuvne": [
+      {
+        "id": "hs-portal",
+        "name": "Posuvný systém HS portál",
+        "badge": "Luxusní",
+        "desc": "Luxusní posuvně zdvižný systém pro velkoformátové plochy s nízkým prahem.",
+        "tags": ["Nízký práh", "Velkoformátové", "HS portál"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "psk",
+        "name": "Posuvný systém PSK",
+        "badge": "Praktické",
+        "desc": "Posuvný výklopný systém s vysokým prahem do šířky křídla 1500 mm.",
+        "tags": ["Vysoký práh", "Do 1500 mm", "PSK"],
+        "link": "",
+        "image": ""
+      }
+    ],
+    "doplnky": [
+      {
+        "id": "skla",
+        "name": "Skla & zasklení",
+        "badge": "Zasklení",
+        "desc": "Dvojsklo, trojsklo, protisluneční, bezpečnostní nebo samočisticí. Ug od 0,5 W/m²K.",
+        "tags": ["Protisluneční", "Bezpečnostní"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "zaluzie",
+        "name": "Žaluzie & stínění",
+        "badge": "Komfort",
+        "desc": "Integrované i vnější žaluzie, rolety, markýzy. Smart Home ovládání.",
+        "tags": ["Integrované", "Smart Home"],
+        "link": "",
+        "image": ""
+      },
+      {
+        "id": "kovani",
+        "name": "Kování & zámky",
+        "badge": "Bezpečnost",
+        "desc": "Kování MACO, Roto, GU. Protivloupavé zábrany, dětské pojistky.",
+        "tags": ["MACO / Roto", "Protivloupavé"],
+        "link": "",
+        "image": ""
+      }
+    ]
+  },
+  "o_nas": {
+    "tag": "O nás",
+    "title": "Okna děláme\nod roku 2005.\nPoctivě a na míru.",
+    "text1": "Začínali jsme jako malá rodinná dílna. Dnes nás je 120, máme vlastní výrobu a montážní týmy po celé republice — ale filozofie se nezměnila. Za každé okno ručíme od prvního měření až po poslední utažený šroub.",
+    "text2": "Neprodáváme přes dealery. Přijedeme k vám, odměříme, vyrobíme, namontujeme. Všechno vlastními lidmi, proto víme přesně co odevzdáváme.",
+    "sig_name": "Jan Novák, zakladatel",
+    "sig_quote": "„Každý zákazník se k nám vrátí — ať chce nebo ne. Tak to prostě chceme dělat."",
+    "photo_main": "",
+    "photo_sec": "",
+    "proofs": [
+      {"title": "Záruka 10 let", "sub": "Profily, kování i zasklení"},
+      {"title": "ISO 9001", "sub": "Certifikát kvality výroby"},
+      {"title": "Vlastní výroba v ČR", "sub": "100 % made in Czech Republic"},
+      {"title": "Vlastní montéři", "sub": "Žádní subdodavatelé"}
+    ]
+  },
+  "projekty": [
+    {
+      "id": 1,
+      "type": "Plastová okna + vstupní dveře",
+      "name": "Novostavba rodinného domu v Praze 6",
+      "meta": "18 ks oken · Smart SP 7000 · RAL 7016",
+      "label": "Rodinný dům · Praha",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "type": "Dřevěná okna Softline 92",
+      "name": "Rekonstrukce chaty na Šumavě",
+      "meta": "12 ks oken · Smrk / Lazura · Trojsklo",
+      "label": "Chata · Šumava",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "type": "Hliníková okna + HST systém",
+      "name": "Moderní vila v Brně — Žabovřesky",
+      "meta": "24 ks oken · HST posuvné · Alluminio 78",
+      "label": "Vila · Brno",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "type": "Bytový dům — výměna oken",
+      "name": "Revitalizace BD v Ostravě-Porubě",
+      "meta": "142 ks oken · SVJ projekt · Plastová okna",
+      "label": "BD · Ostrava",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "type": "Špaletová okna — rekonstrukce",
+      "name": "Historická vila na Vinohradech",
+      "meta": "8 ks špaletových oken · Dub · Trojsklo",
+      "label": "Historická budova · Praha",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "type": "Hliníková okna — komerční projekt",
+      "name": "Administrativní budova v Liberci",
+      "meta": "86 ks oken · Hliník · Protisluneční sklo",
+      "label": "Kancelářský komplex · Liberec",
+      "image": ""
+    }
+  ]
+}

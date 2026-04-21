@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zásady cookies – Smart Okna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --white: #ffffff; --off-white: #f7f8fa; --border: #e2e5ec;
+    --text: #0f1117; --text-mid: #4a5068; --text-light: #8a90a8;
+    --accent: #1a5fa8; --accent-light: #2775c9; --accent-pale: #e6f0fb;
+    --radius: 14px; --radius-sm: 8px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--white); color: var(--text); font-family: 'Mona Sans', 'Helvetica Neue', sans-serif; -webkit-font-smoothing: antialiased; }
+
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 2.5rem; background: rgba(247,248,250,0.96); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+  .logo-wrap { display: flex; align-items: center; gap: .6rem; text-decoration: none; }
+  .logo-icon { width: 36px; height: 36px; background: var(--accent); border-radius: 9px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px; padding: 7px; }
+  .logo-icon span { background: rgba(255,255,255,.9); border-radius: 2px; }
+  .logo-text { font-size: 1.1rem; font-weight: 700; color: var(--text); letter-spacing: -.02em; }
+  .nav-back { height: 40px; padding: 0 18px; background: var(--off-white); color: var(--text-mid); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px; transition: background .2s, color .2s; }
+  .nav-back:hover { background: var(--border); color: var(--text); }
+  .nav-back svg { width: 14px; height: 14px; }
+
+  .page-wrap { max-width: 780px; margin: 0 auto; padding: 120px 2rem 6rem; }
+
+  .page-tag { font-size: .68rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin-bottom: .7rem; display: block; }
+  .page-title { font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 800; letter-spacing: -.04em; line-height: 1.1; margin-bottom: .6rem; }
+  .page-updated { font-size: .82rem; color: var(--text-light); margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1.5px solid var(--border); }
+
+  .doc-section { margin-bottom: 2.5rem; }
+  .doc-section h2 { font-size: 1.1rem; font-weight: 800; color: var(--text); margin-bottom: .8rem; padding-left: 1rem; border-left: 3px solid var(--accent); }
+  .doc-section p { font-size: .95rem; line-height: 1.8; color: var(--text-mid); margin-bottom: .8rem; }
+  .doc-section p:last-child { margin-bottom: 0; }
+  .doc-section ul { padding-left: 1.4rem; margin-bottom: .8rem; }
+  .doc-section ul li { font-size: .95rem; line-height: 1.8; color: var(--text-mid); margin-bottom: .3rem; }
+  .doc-section table { width: 100%; border-collapse: collapse; margin-bottom: .8rem; font-size: .9rem; }
+  .doc-section table th { text-align: left; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--text-light); padding: .6rem .8rem; border-bottom: 1.5px solid var(--border); background: var(--off-white); }
+  .doc-section table td { padding: .75rem .8rem; border-bottom: 1px solid var(--border); color: var(--text-mid); vertical-align: top; line-height: 1.6; }
+  .doc-section table tr:last-child td { border-bottom: none; }
+
+  .highlight-box { background: var(--accent-pale); border: 1.5px solid rgba(26,95,168,.15); border-radius: var(--radius-sm); padding: 1.2rem 1.4rem; margin-bottom: .8rem; }
+  .highlight-box p { color: var(--text); }
+  .highlight-box strong { color: var(--accent); }
+
+  a { color: var(--accent); }
+
+  footer-simple { display: block; text-align: center; padding: 2rem; border-top: 1px solid var(--border); font-size: .82rem; color: var(--text-light); }
+
+  @media (max-width: 600px) {
+    nav { padding: 0 1.2rem; }
+    .page-wrap { padding: 100px 1.2rem 4rem; }
+    .doc-section table { font-size: .82rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo-wrap" href="index.html">
+    <div class="logo-icon"><span></span><span></span><span></span><span></span></div>
+    <span class="logo-text">Smart Okna</span>
+  </a>
+  <a href="index.html" class="nav-back">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    Zpět na web
+  </a>
+</nav>
+
+<div class="page-wrap">
+
+  <span class="page-tag">Právní informace</span>
+  <h1 class="page-title">Zásady cookies</h1>
+  <p class="page-updated">Poslední aktualizace: duben 2026 &nbsp;·&nbsp; Platné od: 1. 1. 2025</p>
+
+  <div class="doc-section">
+    <h2>1. Co jsou cookies</h2>
+    <p>Cookies jsou malé textové soubory, které se ukládají do vašeho zařízení (počítač, tablet, mobilní telefon) při návštěvě webových stránek. Slouží k tomu, aby si web zapamatoval vaše preference a akce v průběhu určitého časového období, takže je nemusíte znovu zadávat.</p>
+    <p>Cookies <strong>nemohou</strong> spustit programy ani přenést viry do vašeho počítače. Neobsahují osobně identifikovatelné informace.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>2. Jaké cookies používáme</h2>
+    <table>
+      <thead>
+        <tr><th>Název / typ</th><th>Účel</th><th>Platnost</th><th>Právní základ</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Technické cookies</strong><br><em>(nezbytné)</em></td>
+          <td>Zajišťují základní funkce webu — správné zobrazení stránek, navigace, bezpečnostní prvky.</td>
+          <td>Relace / do zavření prohlížeče</td>
+          <td>Nezbytné — souhlas se nevyžaduje</td>
+        </tr>
+        <tr>
+          <td><strong>Analytické cookies</strong><br><em>(návštěvnost)</em></td>
+          <td>Anonymně sledujeme počet návštěv a zobrazených stránek za účelem vylepšení webu. Data jsou uchovávána na vlastním serveru a nejsou sdílena s třetími stranami.</td>
+          <td>90 dní</td>
+          <td>Oprávněný zájem (čl. 6 odst. 1 písm. f) GDPR)</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Náš web <strong>nepoužívá</strong> reklamní ani sledovací cookies třetích stran (Google Analytics, Facebook Pixel apod.).</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>3. Analytika a ochrana soukromí</h2>
+    <p>Analytická data sbíráme vlastním systémem provozovaným výhradně na serveru Wedos Internet, a.s. v České republice. Nezasíláme žádná data do USA ani jiných třetích zemí.</p>
+    <div class="highlight-box">
+      <p>Zaznamenáváme pouze: datum návštěvy, typ prohlížeče a operačního systému. <strong>IP adresa je anonymizována</strong> — ukládáme pouze první tři oktety (např. 192.168.1.xxx), takže vás nelze osobně identifikovat.</p>
+    </div>
+  </div>
+
+  <div class="doc-section">
+    <h2>4. Správa a odmítnutí cookies</h2>
+    <p>Cookies můžete kdykoli spravovat nebo smazat prostřednictvím nastavení vašeho prohlížeče. Níže naleznete návody pro nejběžnější prohlížeče:</p>
+    <ul>
+      <li><strong>Google Chrome:</strong> Nastavení → Soukromí a zabezpečení → Soubory cookie a data stránek</li>
+      <li><strong>Mozilla Firefox:</strong> Možnosti → Soukromí a zabezpečení → Cookies a data stránek</li>
+      <li><strong>Safari:</strong> Předvolby → Soukromí → Spravovat data webových stránek</li>
+      <li><strong>Microsoft Edge:</strong> Nastavení → Soukromí, vyhledávání a služby → Cookies</li>
+    </ul>
+    <p>Upozorňujeme, že zablokování technických cookies může narušit funkčnost webu.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>5. Změny těchto zásad</h2>
+    <p>Tyto zásady cookies můžeme čas od času aktualizovat v souladu se změnami zákona nebo naší praxe. Doporučujeme tuto stránku pravidelně navštěvovat. Datum poslední aktualizace je uveden v záhlaví stránky.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>6. Kontakt</h2>
+    <p>Máte-li dotazy týkající se používání cookies na našem webu, kontaktujte nás:</p>
+    <div class="highlight-box">
+      <p>
+        E-mail: <a href="mailto:info@smartokna.cz"><strong>info@smartokna.cz</strong></a><br>
+        Telefon: <a href="tel:+420603182599"><strong>603 182 599 / 283 842 649</strong></a><br>
+        Adresa: Pod Hájkem 2203/3, 180 00 Praha 8 – Palmovka
+      </p>
+    </div>
+    <p>Další informace o zpracování osobních údajů naleznete v <a href="ochrana-osobnich-udaju.html">Zásadách ochrany osobních údajů</a>.</p>
+  </div>
+
+</div>
+
+<footer-simple>© 2026 Smart Okna s.r.o. Všechna práva vyhrazena.</footer-simple>
+
+</body>
+</html>
